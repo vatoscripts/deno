@@ -9,5 +9,7 @@ spec:
       paths:
       - path: /
         backend:
-          serviceName: api
-          servicePort: 80
+          service:
+            Name: api
+          port:
+            Number: 80
