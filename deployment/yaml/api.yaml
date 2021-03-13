@@ -13,7 +13,7 @@ spec:
         app: api
     spec:
       containers:
-      - image: deno
+      - image: node
         imagePullPolicy: Never
         name: api
         ports:
